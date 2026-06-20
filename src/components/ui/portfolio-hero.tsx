@@ -342,7 +342,7 @@ export default function Component() {
               <p className="mt-4 text-neutral-500 text-base sm:text-lg leading-relaxed max-w-xl">
                 8+ years across administration, financial management, client account management, digital marketing, and project management. I&apos;m not just a doer — I build systems that outlast the project.
               </p>
-              <a href="mailto:kemzcobradz@gmail.com" className="inline-block mt-8 px-8 py-4 bg-[#C3E41D] text-black font-semibold rounded-xl hover:bg-[#d4f530] hover:shadow-[0_0_30px_rgba(195,228,29,0.3)] transition-all duration-300">
+              <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kemzcobradz@gmail.com&su=Let's%20Work%20Together" target="_blank" rel="noopener noreferrer" className="inline-block mt-8 px-8 py-4 bg-[#C3E41D] text-black font-semibold rounded-xl hover:bg-[#d4f530] hover:shadow-[0_0_30px_rgba(195,228,29,0.3)] transition-all duration-300">
                 Work With Me
               </a>
             </div>
@@ -553,7 +553,7 @@ export default function Component() {
       <section id="contact" className="py-24 px-6 max-w-5xl mx-auto text-center">
         <Section><h2 className="text-2xl sm:text-3xl md:text-4xl font-light text-white mb-8">Open to remote VA, SEO, and executive assistant roles.</h2></Section>
         <Section delay={100}>
-          <a href="mailto:kemzcobradz@gmail.com" className="inline-block px-8 py-4 bg-[#C3E41D] text-black font-semibold rounded-xl hover:bg-[#d4f530] hover:shadow-[0_0_30px_rgba(195,228,29,0.3)] transition-all duration-300">
+          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=kemzcobradz@gmail.com&su=Let's%20Work%20Together" target="_blank" rel="noopener noreferrer" className="inline-block px-8 py-4 bg-[#C3E41D] text-black font-semibold rounded-xl hover:bg-[#d4f530] hover:shadow-[0_0_30px_rgba(195,228,29,0.3)] transition-all duration-300">
             Work With Me
           </a>
         </Section>
