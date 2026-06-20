@@ -3,6 +3,7 @@
 import React, { useState, useEffect, useRef, useCallback } from "react";
 import { Menu, X, ChevronDown, ExternalLink } from "lucide-react";
 import NeuralVortexBg from "./neural-vortex-bg";
+import headshotImg from "../../../public/headshot.png";
 
 /* ─── Hooks ───────────────────────────────────────────── */
 
@@ -351,7 +352,7 @@ export default function Component() {
               {/* Glow behind image — intensifies on hover */}
               <div className="absolute -inset-4 bg-[#C3E41D]/10 rounded-3xl blur-2xl transition-all duration-500 group-hover:bg-[#C3E41D]/25 group-hover:blur-3xl group-hover:scale-105" />
               <div className="relative w-64 h-80 sm:w-80 sm:h-96 md:w-[380px] md:h-[460px] rounded-2xl overflow-hidden border border-white/10 transition-all duration-500 group-hover:border-[#C3E41D]/30 group-hover:shadow-[0_0_40px_rgba(195,228,29,0.15)]">
-                <img src="/headshot.png" alt="Jess Cobrado, SEO Virtual Assistant and Executive Assistant" className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" style={{ objectPosition: "50% 15%" }} />
+                <img src={headshotImg.src} alt="Jess Cobrado, SEO Virtual Assistant and Executive Assistant" className="w-full h-full object-cover object-top transition-transform duration-700 group-hover:scale-105" style={{ objectPosition: "50% 15%" }} />
               </div>
             </div>
           </div>
